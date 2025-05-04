@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla y Formulario</title>
+</head>
+<body>
+    <center>
+        <h2>Lista de Contactos</h2>
+        <table border="1" cellpadding="8">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Teléfono</th>
+                <th>Edad</th>
+                <th>Correo electrónico</th>
+            </tr>
+            <tr>
+                <td>Laura</td>
+                <td>Martínez</td>
+                <td>555-1234</td>
+                <td>28</td>
+                <td>laura.martinez@example.com</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Gómez</td>
+                <td>555-5678</td>
+                <td>34</td>
+                <td>carlos.gomez@example.com</td>
+            </tr>
+            <tr>
+                <td>Andrea</td>
+                <td>Rojas</td>
+                <td>555-8765</td>
+                <td>22</td>
+                <td>andrea.rojas@example.com</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>López</td>
+                <td>555-4321</td>
+                <td>41</td>
+                <td>pedro.lopez@example.com</td>
+            </tr>
+            <tr>
+                <td>Lucía</td>
+                <td>Fernández</td>
+                <td>555-7890</td>
+                <td>30</td>
+                <td>lucia.fernandez@example.com</td>
+            </tr>
+        </table>
+
+        <h2>Agregar Nuevo Contacto</h2>
+        <form action="#" method="post">
+            <p>
+                <label>Nombre:</label>
+                <br>
+                <input type="text" name="nombre">
+            </p>
+            <p>
+                Apellido:<br>
+                <input type="text" name="apellido">
+            </p>
+            <p>
+                Teléfono:<br>
+                <input type="text" name="telefono">
+            </p>
+            <p>
+                Edad:<br>
+                <input type="number" name="edad">
+            </p>
+            <p>
+                Correo electrónico:<br>
+                <input type="email" name="correo">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </center>
+</body>
+</html>
